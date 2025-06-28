@@ -1,0 +1,5 @@
+{
+    "MD012": false,
+    "MD013": false,   // Exemplo: desativa limite de caracteres por linha
+    "MD033": false    // Exemplo: permite HTML embutido
+}
