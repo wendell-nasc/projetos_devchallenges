@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página de FAQ</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Perguntas Frequentes (FAQ)</h1>
+    <p>Encontre respostas para as dúvidas mais comuns abaixo.</p>
+  </header>
+
+  <main>
+    <section class="faq" aria-label="Seção de Perguntas Frequentes">
+      <article class="faq-item">
+        <h2>
+          <button class="faq-question" aria-expanded="false" aria-controls="resposta1" id="pergunta1">
+            O que é este site?
+          </button>
+        </h2>
+        <div class="faq-answer" id="resposta1" role="region" aria-labelledby="pergunta1" hidden>
+          <p>Este site é um exemplo de página de FAQ com HTML, CSS e JS.</p>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <h2>
+          <button class="faq-question" aria-expanded="false" aria-controls="resposta2" id="pergunta2">
+            Como posso entrar em contato?
+          </button>
+        </h2>
+        <div class="faq-answer" id="resposta2" role="region" aria-labelledby="pergunta2" hidden>
+          <p>Você pode nos contatar pelo e-mail contato@exemplo.com.</p>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <h2>
+          <button class="faq-question" aria-expanded="false" aria-controls="resposta3" id="pergunta3">
+            Este site é responsivo?
+          </button>
+        </h2>
+        <div class="faq-answer" id="resposta3" role="region" aria-labelledby="pergunta3" hidden>
+          <p>Sim! O layout se adapta a celulares, tablets e desktops.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Meu Projeto FAQ. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
