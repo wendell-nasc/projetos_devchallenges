@@ -64,14 +64,50 @@
     border-radius: 4px;
   }
   
-  /* Responsivo */
-  @media (max-width: 600px) {
-    main {
-      padding: 0.5rem;
-    }
-  
-    .faq-question {
-      font-size: 1rem;
-    }
+  /* ========== Responsividade ========== */
+
+/* 📱 Mobile (até 412px) */
+@media (max-width: 480px) {
+  body {
+    padding: 0.5rem;
+  }
+
+  main {
+    padding: 1rem;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .faq-question {
+    font-size: 1rem;
+  }
+}
+
+/* 🧾 Tablet (768px a 1024px) */
+@media (max-width: 1024px) {
+  main {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+/* 💻 Desktop largo (acima de 1350px) */
+@media (min-width: 1350px) {
+  body {
+    padding: 2rem;
+  }
+
+  main {
+    max-width: 1200px;
+    padding: 2rem;
+  }
+
+  .faq-question {
+    font-size: 1.25rem;
+  }
+
+  .faq-answer {
+    font-size: 1.1rem;
+  }
   }
   

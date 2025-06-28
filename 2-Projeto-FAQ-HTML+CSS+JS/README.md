@@ -28,6 +28,16 @@ Este projeto é uma página de Perguntas Frequentes (FAQ) simples, responsiva e 
 - Interatividade com JavaScript
 - Validação W3C
 
+# # Ajustar o CSS para que a página se adapte corretamente a:
+
+📱 Mobile (412px)
+
+💻 Desktop (1350px)
+
+🧾 Tablet (1024px)
+
+
+
 ## Testado em
 
 - Google Chrome
@@ -42,3 +52,4 @@ Wendell Silva — 2025
 # Publicado no:
 
 GitHub + GitHub Pages
+
