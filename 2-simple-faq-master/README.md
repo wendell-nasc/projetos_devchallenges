@@ -39,7 +39,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://github.com/wendell-nasc/projetos_devchallenges/blob/c323ba00263479db67e7dac12b410bcf51b47339/2-simple-faq-master/screenshot.png)
 
 Este projeto é uma página de Perguntas Frequentes (FAQ) simples, responsiva e acessível, construída com HTML, CSS e JavaScript.
 
